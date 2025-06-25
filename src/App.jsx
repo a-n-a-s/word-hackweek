@@ -30,7 +30,7 @@ const App = () => {
         </div>
         <div className="flex flex-col gap-4 items-start justify-center">
           {wordMeanings.map((meaning) => (
-            <div className="w-full h-12 border-2 border-amber-400 p-4 bg-amber-100 rounded-lg">
+            <div className="w-full  border-2 border-amber-400 px-4 py-8 bg-amber-100 rounded-lg">
               <p key={meaning.definition}>{meaning.definition}</p>
             </div>
           ))}
